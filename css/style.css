@@ -29,3 +29,41 @@ body {
     top: 32.5px;
     z-index: 10;
 }
+
+/* main */
+.py-65 {
+    padding: 65px 0;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+.w-70 {
+    width: 70%;
+    padding-right: 10px;
+}
+
+.w-30 {
+    width: 30%;
+    padding-left: 10px;
+}
+
+.w-70 .inner {
+    height: 450px;
+    width: 100%;
+    margin-right: 10px;
+    background-color: #52AFD7;
+}
+
+.w-30 .inner {
+    height: 215px;
+    width: 100%;
+    margin-right: 10px;
+    background-color: #7767B4;
+    margin-bottom: 20px;
+}
